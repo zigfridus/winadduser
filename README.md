@@ -14,19 +14,20 @@ If you don't want home directories write dash (-) in B1 and B2 cells.
 Administrators group will get right for all users home directories.
 After that you should write all information about new users. Don't leave any cell empty.
 Possible values for columns are:
-#active:{yes | no}
+- active:{yes | no}
 Activates or deactivates the account
-#expires:{date | never}
+- expires:{date | never}
 Causes the account to expire if date is set. The never option sets no time limit on the account.
 An expiration date is in the form mm/dd/yyyy or dd/mm/yyyy, depending on the country code.
-#password change:{yes | no}
+- password change:{yes | no}
 Specifies whether users can change their own password.
-#password required:{yes | no}
+- password required:{yes | no}
 Specifies whether a user account must have a password.
-#password expires:{true | false}
+- password expires:{true | false}
 Specifies whether a users password expires.
 
 You should have Java installed. You can get here: https://java.com
 Run program:
 >java -jar winadduser-1.0-jar-with-dependencies.jar import.xls
+
 You can use any name of .xls file as the last argument.
