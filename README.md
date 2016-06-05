@@ -1,4 +1,7 @@
-WINADDUSER is a Java tool which helps to add new users in Microsoft Windows.
+WINADDUSER 
+==========
+
+This is a Java tool which helps to add new users in Microsoft Windows.
 
 It gets users list from a .xls (Microsof Excel) file.
 Also it can create home directory for each user.
